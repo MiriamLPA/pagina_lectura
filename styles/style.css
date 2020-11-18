@@ -1,0 +1,179 @@
+/*font-family: 'Sansita Swashed', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;700;900&display=swap');
+/*font-family: 'Quattrocento', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+/*font-family: 'Berkshire Swash', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+/*font-family: 'Trirong', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    --cafe: #995848;
+    --rosa: #FFBEAD;
+    --rosaClaro: #FCD7D5;
+    --rosaP: #E69885;
+    --rosarosa:#EBA19D;
+    --blanco: #FEFEFE;
+    --verdeF: #4A9E6A;
+    --verde: #3A9979;
+    --azul: #85E6C5;
+}
+
+body{
+    font-size: 62.5%;
+    background-color: #eeeeee;
+}
+
+.site-header{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 4.8rem;
+    
+    /*color: rgb(75, 175, 179);*/
+    margin: 1.5rem 2rem;
+    text-align: center;
+}
+
+.columna{
+    column-count:3;
+    column-span:all;
+}
+
+.bar{
+    width: 95%;
+    max-width: 1200px;
+    padding: 1rem 1.5rem;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navlink{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    list-style: none;
+}
+
+.principal-site-header{
+    background-image: url("../resources/img/Libros.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(79, 197, 197);
+}
+
+.tituloLibro{
+    font-family: 'Quattrocento', serif;
+    font-size: 3rem;
+    color: #E69885;
+    margin-left: 10rem;
+}
+
+.subtitulo{
+    font-family: 'Quattrocento', serif;
+    font-size: 2rem;
+    color: #000000;
+    margin-left: 10rem;
+}
+
+.titulos{
+    font-family: 'Quattrocento', serif;
+    font-size: 2rem;
+    color: #f959ff;
+    margin-left: 10rem;
+}
+
+.cuerpo{
+    font-family: 'Trirong', serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    /*background:violet;
+    border:3px solid purple;
+    padding:15px;
+    margin-top:100px;
+    margin-bottom:100px;*/
+}
+
+.resaltar{
+    background:rgb(214, 214, 214);
+    font-family: 'Trirong', serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border:3px solid rgb(121, 121, 121);
+    padding:15px;
+}
+
+.descripcion{
+    font-family: 'Trirong', serif;
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 10rem;
+}
+
+.descripcion2{
+    font-family: 'Trirong', serif;
+    font-size: 1rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+}
+
+.descripcion3{
+    font-family: 'Trirong', serif;
+    font-size: 1rem;
+    text-align: justify;
+    margin-right: 10rem;
+}
+
+.Boton{
+    background:rgb(214, 214, 214);
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border:3px solid rgb(121, 121, 121);
+    padding:15px;
+}
+
+.imgLibro{
+    margin-left: 6rem;
+    margin-right: 10rem;   
+}
+
+.imgLeer{
+    float: right;
+}
+
+.imgIzq{
+    float: left;
+    margin-right: 1.65rem;
+}
+
+.imgCenter{
+    float: center;
+}
+
+.grande:hover{
+    transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    box-shadow: 0px 0px 3rem #666666;   
+    flex: 0 0 calc(33.3% - 2rem); 
+}
+
+.row{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
